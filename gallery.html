@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fundación Ser Humano</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-fluid logo"
+                alt="Responsive image"></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="questions.html">Preguntas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gallery.html">Galería<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contacto</a>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="https://www.facebook.com/fundacionserhumanoColombia"><img id="facebook"
+                    src="img/facebook.png" class="img-fluid" alt="Responsive image"></a>
+            <a class="navbar-brand" href="https://www.youtube.com/channel/UCK54TY1fvql3VZY9D80OF8g"><img id="youtube"
+                    src="img/youtube.png" class="img-fluid" alt="Responsive image"></a>
+            <a class="navbar-brand" href=" https://wa.me/57317709880"><img id="whatsapp" src="img/whatsapp.png"
+                    class="img-fluid" alt="Responsive image"></a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h3 id="tltGaleria">Galería</h3>
+
+        <hr class="mt-2 mb-5">
+
+        <div class="row text-center text-lg-left galeria">
+
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic1.jpg" alt=""
+                    onclick="onClick(this)">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic2.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic3.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic4.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic5.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic6.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic7.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic8.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic9.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic10.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic11.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 containerPic">
+
+                <img class="img-fluid img-thumbnail modal-hover-opacity gPicture" src="img/pic12.jpg" alt=""
+                    onclick="onClick(this)">
+
+            </div>
+
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <div class="modal-content">
+                    <img id="img01" style="max-width:100%">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p class="footerText">Teléfono Fijo: 5369398 - Bogotá, Colombia</p>
+        <p class="footerText">Copyright © Crafted by CrackMayo.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
