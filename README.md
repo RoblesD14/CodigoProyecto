@@ -1,1 +1,1 @@
-# plataforma Web de ayuda al projimo
+# plataforma Web de ayuda
